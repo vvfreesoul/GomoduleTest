@@ -1,0 +1,3 @@
+[submodule "adder"]
+	path = adder
+	url = git@github.com:vvfreesoul/adder.git

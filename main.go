@@ -1,9 +1,11 @@
 package main
 
 import (
+	"GomoduleTest/adder"
 	"fmt"
 )
 
 func main() {
-	fmt.Println("Hello, world.")
+	sum := adder.Add(5, 3)
+	fmt.Println(sum)
 }
